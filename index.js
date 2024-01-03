@@ -16,8 +16,8 @@ mongoose
   .catch(() => {
     console.log("db is not connected");
   });
-  app.listen(2007, () => {
-    console.log("server is connected:2007");
+  app.listen(3002, () => {
+    console.log("server is connected:3002");
   });
 //img
 // const mystr = multer.diskStorage({
